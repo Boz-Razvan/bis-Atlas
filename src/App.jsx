@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Map } from './components';
+import { RomaniaMap } from './components';
 
 function App() {
   return (
     <div className="App">
+      <RomaniaMap />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

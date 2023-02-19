@@ -1,5 +1,4 @@
-import Map from "./Map";
-
+import RomaniaMap from "./RomaniaMap"
 export {
-    Map,
+    RomaniaMap,
 }
