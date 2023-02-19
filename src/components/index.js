@@ -1,5 +1,5 @@
 import Map from "./Map";
 
-export{
+export {
     Map,
 }
