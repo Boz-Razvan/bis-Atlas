@@ -1,13 +1,18 @@
 #romania-map path {
-    fill: lightgreen;
+    fill: #E74C3C;
+    stroke: black;
     transition: .4s;
   }
   
   #romania-map path:hover {
-    fill: rgb(92, 161, 92);
+    fill: #86342b;
     
   }
   
   #romania-map path.selected {
-    fill: rgb(219, 219, 94);
+    fill: #f8988e;
   }
+.separator{
+  background-color: darkslategray;
+  height: 300vh;
+}

@@ -5,6 +5,7 @@ import InfoCards from './InfoCards';
 
 const RomaniaMap = () => {
   const [selectedCounty, setSelectedCounty] = useState(null);
+  const [hoveredCounty, setHoveredCounty] = useState(null);
 
   useEffect(() => {
     const counties = document.querySelectorAll('#romania-map path');
@@ -12,13 +13,11 @@ const RomaniaMap = () => {
     const handleCountyClick = (event) => {
       const county = event.target;
 
-      // Unselect previously selected county
       if (selectedCounty) {
         const prevCounty = document.getElementById(selectedCounty);
         prevCounty.classList.remove('selected');
       }
 
-      // Select new county
       setSelectedCounty(county.getAttribute('id'));
       county.classList.add('selected');
     };
@@ -27,7 +26,6 @@ const RomaniaMap = () => {
       const countyName = county.getAttribute('id');
       const countyBox = county.getBBox();
 
-      // Create and position text element for county name
       const textElement = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       textElement.textContent = countyName;
       textElement.setAttribute('x', countyBox.x + countyBox.width / 2);
@@ -39,12 +37,14 @@ const RomaniaMap = () => {
       county.addEventListener('click', handleCountyClick);
 
       county.addEventListener('mouseover', () => {
+        setHoveredCounty(county.getAttribute('id'));
         if (county !== document.getElementById(selectedCounty)) {
           county.classList.add('hover');
         }
       });
 
       county.addEventListener('mouseout', () => {
+        setHoveredCounty(null);
         if (county !== document.getElementById(selectedCounty)) {
           county.classList.remove('hover');
         }
@@ -175,6 +175,9 @@ const RomaniaMap = () => {
         {selectedCounty ? `Selected county: ${selectedCounty}` : 'Please select a county'}
       </div>
       <div>
+        {hoveredCounty ? `Hovered county: ${hoveredCounty}` : ''}
+        </div>
+      <div className='separator'>
         <GeneralInfo selectedCounty={selectedCounty} />
         <InfoCards selectedCounty={selectedCounty} />
       </div>
