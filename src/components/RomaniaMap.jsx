@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './styles/Map.css';
 import GeneralInfo from './GeneralInfo';
+import InfoCards from './InfoCards';
 
 const RomaniaMap = () => {
   const [selectedCounty, setSelectedCounty] = useState(null);
@@ -175,6 +176,7 @@ const RomaniaMap = () => {
       </div>
       <div>
         <GeneralInfo selectedCounty={selectedCounty} />
+        <InfoCards selectedCounty={selectedCounty} />
       </div>
     </div>
   );

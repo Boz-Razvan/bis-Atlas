@@ -5,9 +5,6 @@ function App() {
   return (
     <div className="App">
       <RomaniaMap />
-      <header className="App-header">
-
-      </header>
     </div>
   );
 }

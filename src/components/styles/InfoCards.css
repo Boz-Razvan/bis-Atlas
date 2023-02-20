@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 30px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    height: 700px;
+    aspect-ratio: 3/6;
+  }
+  
+  .card1 {
+    border: 3px solid lightgreen;
+    background-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    grid-column: 1 / 2;
+  }
+  
+  .card2 {
+    border: 3px solid lightgreen;
+    background-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+    grid-column: 2 / 3;
+  }
+  
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: flex-start;
+    font-size: 30px;
+    list-style-type:decimal;
+}
+
+li{
+    margin-top: 60px;
+
+}
+
+progress {
+    width: 30vw;
+    height: 30px;
+  }
