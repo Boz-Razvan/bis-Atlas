@@ -28,7 +28,7 @@ function GeneralInfo(props) {
       );
       break;
     default:
-      countyInfo = "Please select a county";
+      countyInfo = "Alegeți un județ";
   }
 
   return (

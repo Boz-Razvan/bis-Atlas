@@ -1,4 +1,6 @@
 .GeneralPanel{
+    padding: 20px;
+    color: white;
     margin-top: 100px;
     padding-top: 50px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -17,7 +19,7 @@
     }
     .GeneralPanel{
         margin-top: 1px;
-
+        padding: 8px;
     }
   }
   
