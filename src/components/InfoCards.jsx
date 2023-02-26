@@ -16,12 +16,12 @@ const countyData = [
   },
   {
     name: "Arad",
-    agriculture: 35.2,  
+    agriculture: 35.2,
     hoteluri: 15.9,
     informatii: 10.1,
     imobiliare: 5.2,
     servicii: 8.1,
-    transport: 25.5
+    transport: 25.
   },
 ];
 
