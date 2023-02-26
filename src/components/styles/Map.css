@@ -16,3 +16,20 @@
   background-color: darkslategray;
   height: 300vh;
 }
+
+@media (max-width: 780px) {
+  #romania-map path{
+    transform: scale(.36);
+  }
+  .separator{
+    height: 400vh;
+    margin-top: -400px;
+    margin-left: -4.5vw;
+    margin-right: -10vw;
+  }
+  .Map{
+    margin-top: 40px;
+    margin-left: 4.5vw;
+    margin-right: 10vw;
+  }
+}
