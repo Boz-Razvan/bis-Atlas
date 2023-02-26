@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Boz-Razvan/bis-Atlas.git/static/css/main.5c52f12b.css",
-    "main.js": "/Boz-Razvan/bis-Atlas.git/static/js/main.a31a36ce.js",
+    "main.css": "/Boz-Razvan/bis-Atlas.git/static/css/main.116f9f8d.css",
+    "main.js": "/Boz-Razvan/bis-Atlas.git/static/js/main.b7000317.js",
     "static/js/787.598d1c6b.chunk.js": "/Boz-Razvan/bis-Atlas.git/static/js/787.598d1c6b.chunk.js",
     "index.html": "/Boz-Razvan/bis-Atlas.git/index.html",
-    "main.5c52f12b.css.map": "/Boz-Razvan/bis-Atlas.git/static/css/main.5c52f12b.css.map",
-    "main.a31a36ce.js.map": "/Boz-Razvan/bis-Atlas.git/static/js/main.a31a36ce.js.map",
+    "main.116f9f8d.css.map": "/Boz-Razvan/bis-Atlas.git/static/css/main.116f9f8d.css.map",
+    "main.b7000317.js.map": "/Boz-Razvan/bis-Atlas.git/static/js/main.b7000317.js.map",
     "787.598d1c6b.chunk.js.map": "/Boz-Razvan/bis-Atlas.git/static/js/787.598d1c6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c52f12b.css",
-    "static/js/main.a31a36ce.js"
+    "static/css/main.116f9f8d.css",
+    "static/js/main.b7000317.js"
   ]
 }
