@@ -1,6 +1,11 @@
 .App {
   text-align: center;
-  height: 400vh;
+  height: 400;
   overflow: hidden;
 }
 
+@media (max-width: 780px) {
+  .App{
+    height: 363vh;
+  }
+}

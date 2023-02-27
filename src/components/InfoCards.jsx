@@ -519,13 +519,6 @@ function InfoCards({ selectedCounty }) {
     return (
       <div className="container">
       <div className="card1">
-        <h1>{countyInfo.name}</h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <h1>Agricultură, Silvicultură și Pescuit</h1>
         <br />
         <br />
@@ -570,12 +563,7 @@ function InfoCards({ selectedCounty }) {
         <br />
       </div>
 
-
-
-
       <div className="card2">
-        <h1>{countyInfo.name}</h1>
-        <br />
         <h1>Prima firma dupa cifra de afaceri</h1>
         <br />
         <h3>Nume:</h3>

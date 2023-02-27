@@ -9,6 +9,10 @@
     
   }
   
+  .Map{
+    margin-top: 130px;
+  }
+
   #romania-map path.selected {
     fill: #f8988e;
   }
@@ -28,7 +32,7 @@
     margin-right: -10vw;
   }
   .Map{
-    margin-top: 40px;
+    margin-top: 120px;
     margin-left: 4.5vw;
     margin-right: 10vw;
   }
