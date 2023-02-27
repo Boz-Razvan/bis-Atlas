@@ -58,6 +58,7 @@ h1{
 progress {
     width: 30vw;
     height: 30px;
+    margin-bottom: 20%;
   }
 
   @media (max-width: 780px) {
