@@ -69,14 +69,6 @@ const RomaniaMap = () => {
     };
   }, [selectedCounty]);
 
-  const clearSelection = () => {
-    const county = document.getElementById(selectedCounty);
-    if (county) {
-      county.classList.remove('selected');
-    }
-    setSelectedCounty(null);
-  };
-
   return (
     <div className='Map'>
       <svg id='romania-map' baseProfile="tiny" fill="#7c7c7c" height="705" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" version="1.2" width="1000" xmlns="http://www.w3.org/2000/svg">
